@@ -184,8 +184,20 @@
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+          <script>//あとで消すやつ
+          $(function() {
 
-          <style>/** CSS：Area */
+
+            // -----------music.html----------
+            $('.list-group-item').click(function() {
+              $('.list-group-item').removeClass('active');
+              $(this).addClass('active');
+            });
+
+
+          });
+          </script>
+          <style>/** CSS：Areaあとで消すよ*/
           * {
             border: 1px solid #dd;
           }
