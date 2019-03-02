@@ -5,9 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Bootstrap 101 Template</title>
+  <title>サブスク(仮)音楽</title>
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,9 +27,9 @@
     <div class="container">
       <div class="row mt-2">
 
-        <div class="d-none d-lg-block col-md-2 sidenav">
+        <div class="d-none d-lg-block col-lg-2 sidenav">
           <div class="list-group mt-3">
-            <a href="#!" class="list-group-item active">音楽</a>
+            <a href="http://geyser.html.xdomain.jp/music.html" class="list-group-item active">音楽</a>
             <a href="#!" class="list-group-item list-group-item-action">
               動画</a>
               <a href="#!" class="list-group-item list-group-item-action">
@@ -35,34 +37,34 @@
               </div>
 
             </div>
-            <div class="col-md-10">
+            <div class="col-lg-10">
 
               <div class="row">
                 <div class="col-lg-6 col-sm-12 mb-4">
                   <div class="card m-auto">
                     <div class="card-body">
                       <div class="row">
-                        <div class="col-6">
-                          <span class="badge badge-danger p-1 mb-3">
+                        <div class="col-12">
+                          <span class="badge badge-danger p-1 mb-2">
                             最大3カ月無料！
                           </span>
                         </div>
                       </div>
 
-                      <div class="row pb-2">
+                       <a href="http://geyser.html.xdomain.jp/applemusic.html" class="row mb-0">
                         <div class="col-md-4 col-sm-4 col-3 m-auto">
                           <img class="iconImg"
                           src="http://geyser.html.xdomain.jp/AppleMusicIcon.jpg"
                           width="100%" height="100%" alt="AppleMusic">
                         </div>
-                        <div class="col-md-8 col-sm-8 col-9 m-auto pb-3">
+                        <div class="col-md-8 col-sm-8 col-9 mb-2">
                           <p class="text-left mb-0 pick">Apple</p>
                           <h2 class="text-left font-weight-bold title">Apple Music</h2>
                           <p class="float-left pr-1 b d-none d-xl-block">学割有</p>
                           <p class="float-left pl-1 pr-1 b d-none d-xl-block">約5000万曲</p>
                           <p class="pl-1 d-none d-xl-block ">洋楽多め</p>
 
-                          <div class="row">
+                          <div class="row mb-0">
                             <div class="col-6 d-none d-sm-block">
                               <p class="m-0 pick bb mt-2">月額利用料</p>
                               <p class="mb-2"><span class="font-weight-bold h2">980</span> 円</p>
@@ -74,6 +76,14 @@
                           </div>
 
                         </div>
+
+                        <div class="col-6 d-none d-sm-block no-gutters-r">
+                          <img  src="http://geyser.html.xdomain.jp/AMmemu1.jpg" width="100%" alt="AMmenu1">
+                        </div>
+                        <div class="col-6 d-none d-sm-block no-gutters-l">
+                          <img  src="http://geyser.html.xdomain.jp/AMmemu2.jpg" width="100%" alt="AMmenu2">
+                        </div>
+
                         <!--スマホ用表示-->
                         <div class="col-6 d-sm-none">
                           <p class="m-0 pick bb">月額利用料</p>
@@ -84,23 +94,22 @@
                           <p class="m-0 pick bb">無料期間</p>
                           <h2 class="font-weight-bold">3カ月</h2>
                         </div>
-                      </div>
 
-                       <div class="col-6 d-none d-sm-block">
-                         <img  src="http://geyser.html.xdomain.jp/AMmemu1.jpg" width="100%" alt="AMmenu1">
-                       </div>
-                      <div class="row center">
-                        <div class="col-md-3 col-3 b d-none d-sm-block">
+                      </a>
+
+                        <a href="http://geyser.html.xdomain.jp/applemusic.html" class="row center">
+                          <div class="col-md-3 col-3 b d-none d-sm-block">
                           <p class="font-weight-bold">特徴</p>
-                        </div>
-                        <div class="col-md-9 col-9 d-none d-sm-block">
-                          <p class="text-left">学割でお得<br>
-                            お得お得お得お得お得</p>
+                          </div>
+                          <div class="col-md-9 col-9 d-none d-sm-block">
+                              <p class="text-left">学割でお得<br>
+                                お得お得お得お得お得</p>
                           </div>
                           <div class="col-12 mt-2">
-                            <a class="btn btn-info btn-block text-light font-weight-bold">公式ページへ</a>
+                            <a href="https://www.apple.com/jp/apple-music/" class="btn btn-info btn-block text-light font-weight-bold">公式ページへ</a>
                           </div>
-                        </div>
+                        </a>
+
                       </div>
                     </div>
                   </div>
@@ -181,9 +190,6 @@
             <p class="text-center mt-2 mb-2">copylight</p>
           </footer>
 
-          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
           <script>//あとで消すやつ
           $(function() {
 
@@ -206,6 +212,14 @@
           }
           header {
             background-color: #ddd;
+          }
+          a {
+            color: #000;
+          }
+          a:hover {
+            color: #000;
+            background-color: #eee;
+            text-decoration: none;
           }
           .sidenav {
             background-color: #ddd;
@@ -231,6 +245,12 @@
           }
           .pick {
             font-size: 14px;
+          }
+          .no-gutters-r {
+            padding-right: 0px;
+          }
+          .no-gutters-l {
+            padding-left: 0px;
           }
           </style>
           <script src="main.js"></script>
