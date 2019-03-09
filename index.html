@@ -47,7 +47,9 @@
           </div>
 
           <div class="col-md-3 col-4 m-auto text-center">
-            <button type="button" class="btn btn-outline-info rounded-circle p-0" style="width:5rem; height:5rem;"><i class="fas fa-car-side  h1 m-auto"></i></button>
+            <a href="music.html" class="btn  p-0" style="width:5rem; height:5rem;">
+              <i class="fas fa-car-side h1 mt-3 icon-color fa-fw"></i>
+            </a>
             <p class="mt-2">車</p>
           </div>
 
@@ -65,7 +67,7 @@
 
 <style>/** CSS：Area */
   body {
-    background-color: #EDFFFF;
+    background: linear-gradient( #F8FEFF,#DEFFFF);
   }
   footer {
     width: 100%;
@@ -76,19 +78,21 @@
   }
   .icon-color {
     font-size: 43px;
-    color: rgba(0,255,191,0.6);
+    color: rgba(0,255,191,1);
   }
   .btn {
     background-color: #fff;
     border: 1px solid #00ffcf;
     border-radius: 15px;
   }
-  a:hover .icon-color {
+
+  .btn:hover .icon-color {
     color: #fff;
   }
-  a:hover {
-    background: linear-gradient(#05FBFF, #1E00FF);
-    background-color: #bff;
+  .btn:hover {
+    background: linear-gradient(#ECFECC, #1ECCBB);
+    transition: 0.3s;
   }
+  /*#ECFECC, #1ECCBB*/
 </style></body>
 </html>
