@@ -32,67 +32,114 @@
     <div class="container">
       <div class="row">
 
-          <div class="col-md-3 col-4 m-auto text-center">
-            <a href="music.html" class="btn  p-0" style="width:5rem; height:5rem;">
-              <i class="fas fa-music mt-3 mr-1 icon-color fa-fw"></i>
-            </a>
-            <p class="mt-2">音楽</p>
-          </div>
+        <div class="col-12">
+          <h2 >音楽</h2>
+          <div class="">
 
-          <div class="col-md-3 col-4 m-auto text-center">
-            <a href="music.html" class="btn  p-0" style="width:5rem; height:5rem;">
-              <i class="fas fa-film h1 mt-3 icon-color fa-fw"></i>
-            </a>
-            <p class="mt-2">動画</p>
-          </div>
+            <ul class="horizontal-list">
+              <li class="item">
+                <div class="logo">
+                  <img src="http://geyser.html.xdomain.jp/musicimg/AppleMusicIcon.jpg" alt="applemusic" width="100%" height="">
+                </div>
+                <div class="section">
+                  applemusic
+                </div>
+              </li>
+              <li class="item">
+                <div class="logo">
+                  <img src="http://geyser.html.xdomain.jp/musicimg/AppleMusicIcon.jpg" alt="applemusic" width="100%" height="100%">
+                  <div class="section">
+                    applemusic
+                  </div>
+                </div>
 
-          <div class="col-md-3 col-4 m-auto text-center">
-            <a href="music.html" class="btn  p-0" style="width:5rem; height:5rem;">
-              <i class="fas fa-car-side h1 mt-3 icon-color fa-fw"></i>
-            </a>
-            <p class="mt-2">車</p>
-          </div>
+              </li>
+              <li class="item">
+                <div class="logo">
+                  <img src="http://geyser.html.xdomain.jp/musicimg/AppleMusicIcon.jpg" alt="applemusic" width="100%" height="100%">
+                  <div class="section">
+                    applemusic
+                  </div>
+                </div>
 
-          <div class="col-md-3 col-4 m-auto text-center">
-            <button type="button" class="btn btn-outline-info rounded-circle p-0" style="width:5rem;height:5rem;"><i class="fas fa-music h1 m-auto"></i></button>
-            <p class="mt-2">家具</p>
+              </li>
+
+            </ul>
           </div>
-        </ul>
-      </div>
+          <div class="info">
+            <a href="music.html">音楽をすべて見る <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-6 m-auto text-center">
+          <a href="music.html" class="btn  p-0" style="width:80%; height:80%;">
+            <i class="fas fa-film h1 mt-2 icon-color fa-fw"></i>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-12 m-auto text-center">
+          <a href="music.html" class="btn  p-0" style="width:5rem; height:5rem;">
+            <i class="fas fa-car-side h1 mt-3 icon-color fa-fw"></i>
+          </a>
+          <p class="mt-2">車</p>
+        </div>
+
+        <div class="col-md-3 col-12 m-auto text-center">
+          <button type="button" class="btn btn-outline-info rounded-circle p-0" style="width:5rem;height:5rem;"><i class="fas fa-music h1 m-auto"></i></button>
+
+        </div>
+      </ul>
     </div>
-  </main>
-  <footer>
-    <p class="text-center mt-2 mb-2">copylight</p>
-  </footer>
+  </div>
+</main>
+<footer>
+  <p class="text-center mt-2 mb-2">copylight</p>
+</footer>
 
 <style>/** CSS：Area */
-  body {
-    background: linear-gradient( #F8FEFF,#DEFFFF);
-  }
-  footer {
-    width: 100%;
-    height: 300px;
-  }
-  main {
+body {
+  background: linear-gradient( #F8FEFF,#DEFFFF);
+}
+footer {
+  width: 100%;
+  height: 300px;
+}
+main {
 
-  }
-  .icon-color {
-    font-size: 43px;
-    color: rgba(0,255,191,1);
-  }
-  .btn {
-    background-color: #fff;
-    border: 1px solid #00ffcf;
-    border-radius: 15px;
-  }
+}
+.icon-color {
+  font-size: 38px;
+  color: rgba(0,255,191,1);
+}
+.btn {
+  background-color: #fff;
+  border: 1px solid #00ffcf;
+  border-radius: 7px;
+}
 
-  .btn:hover .icon-color {
-    color: #fff;
-  }
-  .btn:hover {
-    background: linear-gradient(#ECFECC, #1ECCBB);
-    transition: 0.3s;
-  }
-  /*#ECFECC, #1ECCBB*/
+.btn:hover .icon-color {
+  color: #fff;
+}
+.btn:hover {
+  background: linear-gradient(#ECFECC, #1ECCBB);
+  transition: 0.3s;
+}
+.horizontal-list {
+      overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .item {
+      /* 横スクロール用 */
+      display: inline-block;
+      width: 230px;
+
+      /* 見た目調整 */
+      height: 200px;
+      background-color: #ddd;
+      margin-right: 15px;
+    }
+/*#ECFECC, #1ECCBB*/
 </style></body>
 </html>
