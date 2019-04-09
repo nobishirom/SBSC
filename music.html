@@ -35,7 +35,7 @@
             <a href="#!" class="list-group-item list-group-item-action"><i class="fas fa-car-side mr-2 fa-fw"></i>車</a>
           </div>
         </div>
-        <div class="col-10 text-center m-auto h2" ><a href="index.html">サブスク(仮)</a></div>
+        <div class="col-10 text-center m-auto h2 sitetitle" ><a href="index.html">サブスク(仮)</a></div>
       </div>
     </div>
   </header>
@@ -213,7 +213,7 @@
                     <!--アイコン画像-->
                     <div class="col-md-4 col-sm-4 col-3 m-auto">
                       <img class="iconImg"
-                      src="musicimg/AppleMusicIcon.jpg"
+                      src="http://geyser.html.xdomain.jp/musicimg/AppleMusicIcon.jpg"
                       width="100%" height="100%" alt="AppleMusic">
                     </div>
                     <!--アイコン画像ここまで-->
@@ -242,10 +242,10 @@
                     </div>
                     <!--PC用メニュー画像-->
                     <div class="col-6 d-none d-sm-block no-gutters-r">
-                      <img  src="musicimg/AMmenu1.jpg" width="100%" alt="AMmenu1">
+                      <img  src="http://geyser.html.xdomain.jp/musicimg/AMmenu1.jpg" width="100%" alt="AMmenu1">
                     </div>
                     <div class="col-6 d-none d-sm-block no-gutters-l">
-                      <img  src="musicimg/AMmenu2.jpg" width="100%" alt="AMmenu2">
+                      <img  src="http://geyser.html.xdomain.jp/musicimg/AMmenu2.jpg" width="100%" alt="AMmenu2">
                     </div>
                     <!--PC用メニュー画像ここまで-->
 
@@ -253,12 +253,12 @@
                     <div class="col-6 d-sm-none">
                       <p class="m-0 pick bb">月額利用料</p>
                       <p><span class="font-weight-bold h2">980</span> 円</p>
-                      <img  src="musicimg/AMmobilemenu1.jpg" width="100%" alt="AMmenu1">
+                      <img  src="http://geyser.html.xdomain.jp/musicimg/AMmobilemenu1.jpg" width="100%" alt="AMmenu1">
                     </div>
                     <div class="col-6 d-sm-none">
                       <p class="m-0 pick bb">無料期間</p>
                       <h2 class="mb-3 font-weight-bold">3カ月</h2>
-                      <img  src="musicimg/AMmobilemenu2.jpg" width="100%" alt="AMmenu2">
+                      <img  src="http://geyser.html.xdomain.jp/musicimg/AMmobilemenu2.jpg" width="100%" alt="AMmenu2">
                     </div>
                     <!--スマホ用表示ここまで-->
                   </a>
@@ -299,7 +299,7 @@
                     <a href="applemusic.html" target="_blank" class="row mb-0">
                       <div class="col-md-4 col-sm-4 col-3 m-auto">
                         <img class="iconImg"
-                        src="musicimg/Spotifyicon.jpg"
+                        src="http://geyser.html.xdomain.jp/musicimg/Spotifyicon.jpg"
                         width="100%" height="100%" alt="AppleMusic">
                       </div>
                       <div class="col-md-8 col-sm-8 col-9 mb-2">
@@ -323,10 +323,10 @@
                       </div>
                       <!--PC用メニュー画像-->
                       <div class="col-6 d-none d-sm-block no-gutters-r">
-                        <img  src="musicimg/Spmenu1.jpg" width="100%" alt="Spmenu1">
+                        <img  src="http://geyser.html.xdomain.jp/musicimg/Spmenu1.jpg" width="100%" alt="Spmenu1">
                       </div>
                       <div class="col-6 d-none d-sm-block no-gutters-l">
-                        <img  src="musicimg/Spmenu2.jpg" width="100%" alt="Spmenu2">
+                        <img  src="http://geyser.html.xdomain.jp/musicimg/Spmenu2.jpg" width="100%" alt="Spmenu2">
                       </div>
                       <!--PC用メニュー画像ここまで-->
 
@@ -334,12 +334,12 @@
                       <div class="col-6 d-sm-none">
                         <p class="m-0 pick bb">月額利用料</p>
                         <p><span class="font-weight-bold h2">980</span> 円</p>
-                        <img  src="musicimg/Spmobilemenu1.jpg" width="100%" alt="Spmenu1">
+                        <img  src="http://geyser.html.xdomain.jp/musicimg/Spmobilemenu1.jpg" width="100%" alt="Spmenu1">
                       </div>
                       <div class="col-6 d-sm-none">
                         <p class="m-0 pick bb">無料期間</p>
                         <h2 class="mb-3 font-weight-bold">30日</h2>
-                        <img  src="musicimg/Spmobilemenu2.jpg" width="100%" alt="Spmenu2">
+                        <img  src="http://geyser.html.xdomain.jp/musicimg/Spmobilemenu2.jpg" width="100%" alt="Spmenu2">
                       </div>
                       <!--スマホ用表示ここまで-->
                     </a>
@@ -377,11 +377,20 @@
             }
             header {
               padding:10px;
-              background: skyblue;
+              background: #1B4181;
               position: fixed;
               z-index: 5;
               width: 100%;
             }
+
+            .sitetitle > a {
+              color: #FFF;
+            }
+
+            .sitetitle > a:hover {
+              color: #CCC;
+            }
+
             /*aタグ色*/
              a {
               color: #000;
@@ -448,7 +457,7 @@
               height: 3px;
               width: 25px;
               border-radius: 3px;
-              background: #555;
+              background: #FFF;
               display: block;
               content: '';
               cursor: pointer;
